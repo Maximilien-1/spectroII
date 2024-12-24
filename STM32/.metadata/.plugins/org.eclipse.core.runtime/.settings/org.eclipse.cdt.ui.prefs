@@ -1,0 +1,9 @@
+c_braces=128,255,255
+c_default=128,128,255
+c_multi_line_comment=64,128,128
+c_operators=255,128,192
+c_single_line_comment=255,0,255
+eclipse.preferences.version=1
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

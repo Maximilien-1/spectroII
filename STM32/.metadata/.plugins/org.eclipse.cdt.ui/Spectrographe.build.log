@@ -1,0 +1,10 @@
+22:25:14 **** Incremental Build of configuration Debug for project Spectrographe ****
+make -j8 all 
+arm-none-eabi-size  Spectrographe.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23896	    104	  11368	  35368	   8a28	Spectrographe.elf
+Finished building: default.size.stdout
+ 
+
+22:25:15 Build Finished. 0 errors, 0 warnings. (took 365ms)
+

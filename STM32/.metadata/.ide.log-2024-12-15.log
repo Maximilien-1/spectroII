@@ -1,0 +1,161 @@
+2024-12-16 01:18:26,635 [INFO] Gpio:277 - dependency for GPIO [RCC, SYS, TIM2, TIM3, USART2]
+2024-12-16 01:20:09,956 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,502x243,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-16 01:23:26,235 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 517721272 Bytes (732954624)
+2024-12-16 01:23:27,434 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 568575160 Bytes (732954624)
+2024-12-16 01:23:27,618 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 627295416 Bytes (732954624)
+2024-12-16 01:23:27,772 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-16 01:23:27,773 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-16 01:23:27,773 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: DMA
+2024-12-16 01:23:27,773 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8L0
+2024-12-16 01:23:27,773 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8L0
+2024-12-16 01:23:27,773 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-16 01:23:27,773 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-16 01:23:27,773 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-16 01:23:27,773 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8L0
+2024-12-16 01:23:27,774 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2024-12-16 01:23:27,794 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-12-16 01:23:27,794 [INFO] Argument:327 - 	 sub Args: 
+2024-12-16 01:23:27,794 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Channel5
+2024-12-16 01:23:27,794 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Channel5
+2024-12-16 01:23:27,794 [INFO] Argument:325 - Argument : Initvalue: null
+2024-12-16 01:23:27,794 [INFO] Argument:327 - 	 sub Args: 
+2024-12-16 01:23:27,794 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_8
+2024-12-16 01:23:27,794 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_8
+2024-12-16 01:23:27,794 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-12-16 01:23:27,795 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-12-16 01:23:27,795 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-12-16 01:23:27,795 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-12-16 01:23:27,795 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-12-16 01:23:27,795 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-12-16 01:23:27,795 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-12-16 01:23:27,795 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-12-16 01:23:27,795 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-12-16 01:23:27,795 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-12-16 01:23:27,795 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-12-16 01:23:27,795 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-12-16 01:23:27,795 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-12-16 01:23:27,796 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-12-16 01:23:27,796 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-12-16 01:23:27,796 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-12-16 01:23:27,796 [INFO] Argument:325 - Argument : Statevalue: null
+2024-12-16 01:23:27,796 [INFO] Argument:335 - Argument : Statevalue: null
+2024-12-16 01:23:27,796 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-12-16 01:23:27,796 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-12-16 01:23:27,796 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-12-16 01:23:27,796 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-12-16 01:23:27,796 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-12-16 01:23:27,796 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-12-16 01:23:27,797 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-12-16 01:23:27,797 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-12-16 01:23:27,797 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-12-16 01:23:27,797 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-12-16 01:23:27,918 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\license.tmp_save
+2024-12-16 01:23:28,167 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\license.tmp
+2024-12-16 01:23:28,248 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\gpio.tmp_save
+2024-12-16 01:23:28,402 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\gpio.tmp
+2024-12-16 01:23:28,778 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\dma.tmp_save
+2024-12-16 01:23:28,905 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\dma.tmp
+2024-12-16 01:23:28,920 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\dma_GV.tmp_save
+2024-12-16 01:23:29,001 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\dma_GV.tmp
+2024-12-16 01:23:29,036 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Src\stm32l0xx_it.c_save
+2024-12-16 01:23:29,279 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Src\stm32l0xx_it.c
+2024-12-16 01:23:29,314 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Inc\stm32l0xx_it.h_save
+2024-12-16 01:23:29,388 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Inc\stm32l0xx_it.h
+2024-12-16 01:23:29,424 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Src\stm32l0xx_hal_msp.c_save
+2024-12-16 01:23:29,587 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Src\stm32l0xx_hal_msp.c
+2024-12-16 01:23:29,611 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\system.tmp_save
+2024-12-16 01:23:29,675 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\system.tmp
+2024-12-16 01:23:29,708 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Inc\stm32l0xx_hal_conf.h_save
+2024-12-16 01:23:29,784 [INFO] CodeEngine:335 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Inc\stm32l0xx_hal_conf.h
+2024-12-16 01:23:29,810 [WARN] IPConfigManager:3618 - IP not found : TIM
+2024-12-16 01:23:29,811 [WARN] CodeGenerator:4152 - IP not found : null
+2024-12-16 01:23:29,841 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Inc\main.h_save
+2024-12-16 01:23:29,937 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Inc\main.h
+2024-12-16 01:23:29,973 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Src\main.c_save
+2024-12-16 01:23:30,102 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Src\main.c
+2024-12-16 01:23:30,541 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 273mS.
+2024-12-16 01:23:30,545 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2024-12-16 01:23:30,614 [INFO] ConfigFileManager:1579 - The Die is : DIE447
+2024-12-16 01:23:31,464 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 919mS.
+2024-12-16 01:23:31,465 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2024-12-16 01:23:31,468 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2024-12-16 01:26:24,684 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-12-16 01:26:31,293 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 266142680 Bytes (732954624)
+2024-12-16 01:26:32,649 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 301794264 Bytes (732954624)
+2024-12-16 01:26:35,684 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 340065240 Bytes (732954624)
+2024-12-16 01:26:35,842 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-12-16 01:26:35,842 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-12-16 01:26:35,842 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: DMA
+2024-12-16 01:26:35,843 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8L0
+2024-12-16 01:26:35,843 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8L0
+2024-12-16 01:26:35,843 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-12-16 01:26:35,843 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-12-16 01:26:35,843 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-12-16 01:26:35,843 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8L0
+2024-12-16 01:26:35,844 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2024-12-16 01:26:35,855 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-12-16 01:26:35,855 [INFO] Argument:327 - 	 sub Args: 
+2024-12-16 01:26:35,855 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Channel5
+2024-12-16 01:26:35,855 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Channel5
+2024-12-16 01:26:35,855 [INFO] Argument:325 - Argument : Initvalue: null
+2024-12-16 01:26:35,855 [INFO] Argument:327 - 	 sub Args: 
+2024-12-16 01:26:35,855 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_8
+2024-12-16 01:26:35,855 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_8
+2024-12-16 01:26:35,855 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-12-16 01:26:35,855 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-12-16 01:26:35,855 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-12-16 01:26:35,855 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-12-16 01:26:35,855 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-12-16 01:26:35,855 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-12-16 01:26:35,855 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-12-16 01:26:35,855 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-12-16 01:26:35,855 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-12-16 01:26:35,855 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-12-16 01:26:35,855 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2024-12-16 01:26:35,855 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2024-12-16 01:26:35,855 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-12-16 01:26:35,856 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-12-16 01:26:35,856 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-12-16 01:26:35,856 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-12-16 01:26:35,856 [INFO] Argument:325 - Argument : Statevalue: null
+2024-12-16 01:26:35,856 [INFO] Argument:335 - Argument : Statevalue: null
+2024-12-16 01:26:35,856 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-12-16 01:26:35,856 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-12-16 01:26:35,856 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-12-16 01:26:35,856 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-12-16 01:26:35,856 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-12-16 01:26:35,856 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-12-16 01:26:35,856 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-12-16 01:26:35,856 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-12-16 01:26:35,856 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-12-16 01:26:35,856 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-12-16 01:26:35,915 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\license.tmp_save
+2024-12-16 01:26:35,989 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\license.tmp
+2024-12-16 01:26:36,017 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\gpio.tmp_save
+2024-12-16 01:26:36,085 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\gpio.tmp
+2024-12-16 01:26:36,231 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\dma.tmp_save
+2024-12-16 01:26:36,304 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\dma.tmp
+2024-12-16 01:26:36,310 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\dma_GV.tmp_save
+2024-12-16 01:26:36,375 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\dma_GV.tmp
+2024-12-16 01:26:36,397 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Src\stm32l0xx_it.c_save
+2024-12-16 01:26:36,481 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Src\stm32l0xx_it.c
+2024-12-16 01:26:36,498 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Inc\stm32l0xx_it.h_save
+2024-12-16 01:26:36,568 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Inc\stm32l0xx_it.h
+2024-12-16 01:26:36,592 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Src\stm32l0xx_hal_msp.c_save
+2024-12-16 01:26:36,688 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Src\stm32l0xx_hal_msp.c
+2024-12-16 01:26:36,694 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\system.tmp_save
+2024-12-16 01:26:36,739 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\MXTmpFiles\system.tmp
+2024-12-16 01:26:36,757 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Inc\stm32l0xx_hal_conf.h_save
+2024-12-16 01:26:36,824 [INFO] CodeEngine:335 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Inc\stm32l0xx_hal_conf.h
+2024-12-16 01:26:36,843 [WARN] IPConfigManager:3618 - IP not found : TIM
+2024-12-16 01:26:36,844 [WARN] CodeGenerator:4152 - IP not found : null
+2024-12-16 01:26:36,860 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Inc\main.h_save
+2024-12-16 01:26:36,923 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Inc\main.h
+2024-12-16 01:26:36,938 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Src\main.c_save
+2024-12-16 01:26:37,048 [INFO] CodeEngine:279 - Generated code: C:\Users\maxou\OneDrive\Bureau\Projet\STM32\Spectrographe\Core\Src\main.c
+2024-12-16 01:26:37,390 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 174mS.
+2024-12-16 01:26:37,394 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2024-12-16 01:26:37,455 [INFO] ConfigFileManager:1579 - The Die is : DIE447
+2024-12-16 01:26:38,087 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 693mS.
+2024-12-16 01:26:38,088 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2024-12-16 01:26:38,091 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.

@@ -1,0 +1,59 @@
+12:00:10 **** Incremental Build of configuration Debug for project SpectrographeV2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/stm32l0xx_it.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L073xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32l0xx_it.d" -MT"Core/Src/stm32l0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32l0xx_it.o"
+../Core/Src/stm32l0xx_it.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/stm32l0xx_it.c:198:9: warning: implicit declaration of function 'S10077_Conversion' [-Wimplicit-function-declaration]
+  198 |         S10077_Conversion();
+      |         ^~~~~~~~~~~~~~~~~
+../Core/Src/stm32l0xx_it.c: At top level:
+../Core/Src/stm32l0xx_it.c:208:6: warning: conflicting types for 'S10077_Conversion'; have 'void()'
+  208 | void S10077_Conversion(){
+      |      ^~~~~~~~~~~~~~~~~
+../Core/Src/stm32l0xx_it.c:198:9: note: previous implicit declaration of 'S10077_Conversion' with type 'void()'
+  198 |         S10077_Conversion();
+      |         ^~~~~~~~~~~~~~~~~
+../Core/Src/stm32l0xx_it.c: In function 'S10077_Conversion':
+../Core/Src/stm32l0xx_it.c:260:25: warning: implicit declaration of function 'ExtractAmplitude' [-Wimplicit-function-declaration]
+  260 |                         ExtractAmplitude();
+      |                         ^~~~~~~~~~~~~~~~
+In file included from ../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h:151,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h:29,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc.h:27,
+                 from ../Core/Inc/stm32l0xx_hal_conf.h:188,
+                 from ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/stm32l0xx_it.c:21:
+../Core/Src/stm32l0xx_it.c: In function 'SendPixelData':
+../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l073xx.h:720:29: warning: passing argument 1 of 'HAL_UART_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+  720 | #define USART2              ((USART_TypeDef *) USART2_BASE)
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                             |
+      |                             USART_TypeDef *
+../Core/Src/stm32l0xx_it.c:356:23: note: in expansion of macro 'USART2'
+  356 |     HAL_UART_Transmit(USART2, data, 3, HAL_MAX_DELAY);
+      |                       ^~~~~~
+In file included from ../Core/Inc/stm32l0xx_hal_conf.h:281:
+../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_uart.h:1510:57: note: expected 'UART_HandleTypeDef *' {aka 'struct __UART_HandleTypeDef *'} but argument is of type 'USART_TypeDef *'
+ 1510 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                     ~~~~~~~~~~~~~~~~~~~~^~~~~
+../Core/Src/stm32l0xx_it.c: At top level:
+../Core/Src/stm32l0xx_it.c:359:6: warning: conflicting types for 'ExtractAmplitude'; have 'void(void)'
+  359 | void ExtractAmplitude (void){
+      |      ^~~~~~~~~~~~~~~~
+../Core/Src/stm32l0xx_it.c:260:25: note: previous implicit declaration of 'ExtractAmplitude' with type 'void(void)'
+  260 |                         ExtractAmplitude();
+      |                         ^~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "SpectrographeV2.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\maxou\OneDrive\Bureau\Projet\STMV2\SpectrographeV2\STM32L073RZTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SpectrographeV2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SpectrographeV2.elf
+ 
+arm-none-eabi-size  SpectrographeV2.elf 
+arm-none-eabi-objdump -h -S SpectrographeV2.elf  > "SpectrographeV2.list"
+   text	   data	    bss	    dec	    hex	filename
+  24692	    104	  19744	  44540	   adfc	SpectrographeV2.elf
+Finished building: default.size.stdout
+ 
+Finished building: SpectrographeV2.list
+ 
+
+12:00:11 Build Finished. 0 errors, 5 warnings. (took 909ms)
+
